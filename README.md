@@ -118,3 +118,5 @@ Code Comments (10 points)
 To receive all points, your code must:
 
 Be well commented with concise, relevant notes that other developers can understand. (10 points
+
+*****************************  I googled my sketched out project to make sure I was using the correct procedures.  I used double checked (on chatgpt to see if my analysis was correct)  I was fine with 85% accuracy on the high risk loans, so I received help figuring out that was not considered a "safe loan" and more metrics were needed. The phrasing and variable names are my own conventions.
