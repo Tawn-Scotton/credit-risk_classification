@@ -1,1 +1,16 @@
 
+Accuracy, precision, and recall scores of the machine learning model:
+•	Accuracy: The model achieved an accuracy of 0.98, indicating that it made correct predictions for approximately 98% of the instances in the testing data.
+•	Precision:
+•	For the 0 (healthy loan) label, the precision was 0.98, meaning that 98% of the instances predicted as 0 were correctly classified.
+•	For the 1 (high-risk loan) label, the precision was 0.88, suggesting that 88% of the instances predicted as 1 were correctly classified.
+•	Recall:
+•	For the 0 (healthy loan) label, the recall was 0.99, indicating that 99% of the actual 0 instances were correctly identified.
+•	For the 1 (high-risk loan) label, the recall was 0.81, meaning that 81% of the actual 1 instance were correctly identified.
+Summarizing the results and recommendation:
+•	The machine learning model shows good performance with high accuracy, precision, and recall scores. The machine learning model had high accuracy on the testing data, correctly classifying most of the instances. 
+•	The precision for the healthy loan class (0) (at 99 %) is high what says that a large proportion of instances predicted as healthy loans are indeed true positives. The recall for the healthy loan class is also high, meaning that the model effectively identified most actual healthy loans.
+•	However, the precision and recall for the high-risk loan class (1) are slightly lower (at 85%) compared to the healthy loan class. This suggests that there may be some false positives and false negatives in the predictions for high-risk loans.
+•	Considering these results, it is recommended to use the model for predicting healthy loans due to its high precision and recall scores for that class. However, for high-risk loans, the model may not be as reliable, as it has lower precision and recall scores. Therefore, additional improvements or alternative models should be explored to enhance the model's performance on identifying high-risk loans accurately.
+•	Therefore, the model can provide valuable insights for identifying healthy loans, but caution should be exercised when using it for high-risk loan predictions. Regular evaluation and monitoring of the model's performance, along with domain expertise, are necessary to make informed decisions in the lending process.
+•	
